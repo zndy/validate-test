@@ -3,7 +3,6 @@ package org.johnny.test.service.aop;
 import lombok.extern.slf4j.Slf4j;
 import org.johnny.test.exception.MyException;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

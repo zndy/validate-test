@@ -1,5 +1,6 @@
 package org.johnny.test.entity;
 
+import org.johnny.test.exception.MyException;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -16,4 +17,9 @@ public class ProductTest {
     private void printProduct(@Valid Product product) {
         System.out.println("product = " + product);
     }
+
+//    @Test
+//    public void testMyExceptionHandler() throws MyException {
+//        throw new MyException("this is a error");
+//    }
 }
